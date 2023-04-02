@@ -1,0 +1,19 @@
+
+
+.carrossel{
+    margin-top: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel-img{
+    width: 74%;
+    height: 65%;
+}
+
+.carrossel .seta-e {
+    width: 5rem;
+    height: 5rem;
+}

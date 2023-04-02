@@ -1,0 +1,62 @@
+.div-produtos{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4rem;
+}
+
+.products{
+    width: 90%;
+    display: flex;
+    margin-bottom: 10rem;
+}
+
+.products .filtro .categoria-filtro span{
+    width: 100%;
+}
+
+.products .filtro .categoria-filtro{
+    display: flex;
+    flex-direction: column;
+}
+
+.products .filtro{
+    background-color: bisque;
+    width: 25%;
+}
+
+.sessao-produtos {
+    width: 75%;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.card-produto{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.card-produto img{
+    width: 13rem;
+    margin-bottom: .5rem;
+}
+
+.card-produto .nome-produto{
+    font-style: italic;
+    color: rgb(110, 110, 110);
+    margin-left: .3rem;
+}
+
+.card-produto .valor{
+    font-weight: 600;
+    margin-left: .3rem;
+}
+
+.parcelas{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
