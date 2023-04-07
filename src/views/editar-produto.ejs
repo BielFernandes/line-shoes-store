@@ -18,13 +18,13 @@
             <span>100% seguro</span>
         </div>
     <div class="div-form">
-        <form action="/criar" method="POST" class="form-input-create-produto">
+        <form action="/produtos/<%=showById.id%>/?_method=PUT" method="POST" class="form-input-create-produto">
             <span>Nome do produto</span>
-            <input type="text" name="name">
+            <input type="text" name="name" value="<%= showById.name %>">
             <span>Preço</span>
-            <input type="number" name="price">
+            <input type="number" name="price" value="<%= showById.price %>">
             <span>Marca</span>
-            <input type="text" name="marca">
+            <input type="text" name="marca" value="<%= showById.marca %>">
             <button type="submit">Enviar</button>
         </form>
     </div>

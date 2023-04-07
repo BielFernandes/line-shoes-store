@@ -7,6 +7,10 @@ const mainController = {
 
     mostrarProdutos: (req, res) =>{
         res.render('products', {produtos})
+    },
+    
+    viewBancoProdutos: (req,res) => {
+        res.render('database', {produtos})
     }
 }
 

@@ -1,4 +1,43 @@
-.form-input-create-produto input{
-    border: 2px solid red;
-    width: 40rem;
+.div-form{
+    border: 1px solid rgb(139, 139, 139);
+    width: 90%;
+    border-radius: .4rem;
+    padding: 3rem;
+}
+
+.div-primaria{
+    height: 7rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.div-primaria h1{
+    font-weight: 400;
+}
+
+.div-primaria span {
+    width: 8rem;
+}
+
+.div-primaria img{
+    width: 8rem;
+}
+
+.div-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+
+.div-form input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: .4rem;
+    border: 1px solid rgb(139, 139, 139);
 }

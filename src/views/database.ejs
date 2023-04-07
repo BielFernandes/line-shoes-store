@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/db-page.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="div-pai">
+            <h1>Listagem de produtos</h1>
+            <button class="btn-criar"><a href="/criar">CRIAR NOVO PRODUTO</a></button>
+
+            <div class="div-categorias">
+                <ul>
+                    <li id="li-id"><a href=""> <strong>ID</strong></a></li>
+                    <div class="divisoria"></div>
+                    <li id="li-nome"><a href=""><strong>NOME</strong></a></li>
+                    <div class="divisoria"></div>
+                    <div id="li-actions">
+                    <li><a href=""><strong>AÇÃO</strong></a></li>
+                    </div>
+                </ul>
+            </div>
+            <% produtos.forEach(item =>  { %>
+            <div class="div-categorias">
+                <ul>
+                    <li id="li-id"><a href=""><%=item.id%></a></li>
+                    <div class="divisoria"></div>
+                    <li id="li-nome"><a href=""><%= item.name %></a></li>
+                    <div class="divisoria"></div>
+                    <div id="li-actions">
+                    <li><a href="/produtos/editar/<%= item.id %>">editar</a></li>
+                    <li>
+                        <form action="/deletar/<%= item.id %>/?_method=DELETE" method="post">
+
+                        <button class="btn-deletar" type="submit">deletar</button>
+
+                        </form>
+                    </div>
+                </ul>
+            </div>
+            <% }) %>
+
+        </div>
+    </main>
+</body>
+</html>

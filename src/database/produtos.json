@@ -4,7 +4,7 @@
     "price": "375",
     "image": "adidas-performance-eq21",
     "marca": "adidas",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -13,7 +13,7 @@
     "price": "150",
     "image": "adidas-performance-fluidflow",
     "marca": "adidas",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -22,7 +22,7 @@
     "price": "150",
     "image": "adidas-performance-zenchini",
     "marca": "adidas",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -31,7 +31,7 @@
     "price": "150",
     "image": "flak-caramelo",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -40,7 +40,7 @@
     "price": "150",
     "image": "mizuno-space2",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -49,7 +49,7 @@
     "price": "150",
     "image": "mizuno-wave-frontier4",
     "marca": "mizuno",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -58,7 +58,7 @@
     "price": "150",
     "image": "mizuno-wave-invictus3",
     "marca": "mizuno",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -67,7 +67,7 @@
     "price": "150",
     "image": "nike-phantom",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -76,7 +76,7 @@
     "price": "150",
     "image": "nike-precision5",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -85,7 +85,7 @@
     "price": "150",
     "image": "nike-revolution6",
     "marca": "nike",
-    "tamanhos": ["{42}", "{38}", "{41}"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -94,7 +94,7 @@
     "price": "150",
     "image": "oakley-flak-azul",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -103,7 +103,7 @@
     "price": "150",
     "image": "oakley-halftrack-low",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 },
 {
@@ -112,7 +112,7 @@
     "price": "150",
     "image": "oakley-tenis-meia",
     "marca": "oakley",
-    "tamanhos": ["42", "38", "41"],
+    "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
 }
 ]
