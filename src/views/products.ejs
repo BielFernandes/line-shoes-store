@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="/stylesheets/products.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="primary-div-header">
+            <span>Seja um franqueado</span>
+            <span>Entregas para todo o Brasil</span>
+            <span>Fale conosco</span>
+        </div>
+        <div class="second-div-header">
+        <img src="/img/logo2.png" alt="Logo Loja">
+        <input class="input-search" type="text">
+        <div class="login-carrinho">
+            <img src="/img/login-img.png" alt="" srcset="">
+            <img src="/img/carrinho-img.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="div-navbar">
+        <nav>
+            <ul>
+                <li>Tênis</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Ofertas</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Sapatos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Masculinos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Femininos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Marcas</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="div-offer">
+        <h2>OFERTAS</h2>
+    </div>
+    </header>
+
+    <main>
+        <section class="div-produtos">
+            <span><%= produtos.length %> produtos</span>
+        </section>
+
+        <section class="products">
+            <div class="filtro">
+                    <div class="categoria-filtro">
+                        <span>TAMANHO</span>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">38</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">39</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">40</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">41</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">42</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">43</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">44</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">45</label>
+                    </div>
+                    </div>
+                    <div class="categoria-filtro">
+                        <span>MARCA</span>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">NIKE</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">ADIDAS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">ALL STAR</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">MIZUNO</label>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="sessao-produtos">
+                <% produtos.forEach((item) => { %>
+                    <a href="produtos/<%=item.id%>">
+                    <div class="card-produto">
+                        <img src="/img/produtos/<%=item.image%>.webp" alt="">
+                        <h3>MARCA</h3>
+                        <span class="nome-produto"><%= item.name.toUpperCase() %></span>
+                        <span class="valor"><%= item.price %></span>
+                        <span class="parcelas">3x de 30,00</span>
+                    </div>
+                </a>
+             <% }) %>
+
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="/stylesheets/products.css">
+    <link rel="stylesheet" href="/stylesheets/detalhes.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="primary-div-header">
+            <span>Seja um franqueado</span>
+            <span>Entregas para todo o Brasil</span>
+            <span>Fale conosco</span>
+        </div>
+        <div class="second-div-header">
+        <img src="/img/logo2.png" alt="Logo Loja">
+        <input class="input-search" type="text">
+        <div class="login-carrinho">
+            <img src="/img/login-img.png" alt="" srcset="">
+            <img src="/img/carrinho-img.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="div-navbar">
+        <nav>
+            <ul>
+                <li>Tênis</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Ofertas</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Sapatos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Masculinos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Femininos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Marcas</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="div-offer">
+        <h2>OFERTAS</h2>
+    </div>
+    </header>
+
+    <main>
+        <div class="div-pai">
+            <div class="img-columns"> 
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+    
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+    
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+    
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+    
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="/images/image-not-found.jpg" alt="">
+                </div>
+            </div>
+            <div class="div-img-produto">
+                <img src="/img/produtos/<%=showById.image%>.webp" alt="" srcset="">
+            </div>
+    
+            <div class="detalhes-produto">
+                <h1><%= showById.name %></h1>
+                <small class="small1">Vendido e entregue por Apple Space</small>
+                <small class="small2">Ver detalhes do vendedor</small>
+                <div class="div-div2"></div>
+            <div class="div-price">
+                <small>por </small><span class="value"><%= showById.price %></span>
+                <small class="small-parcelas"><span class="quantidade-parcelas">10x</span> de <span class="span-valor">200</span> sem juros no cartão</small>
+            </div>
+            <div class="div-div2"></div>
+            <div class="div-armazenamento">
+                <h2>TAMANHO</h2>
+                <% showById.tamanhos.forEach((item) => { %>
+                <div><%= item %></div>
+                <% }) %>
+            </div>
+            <div class="comprar-carrinho">
+                <button class="button-comprar">COMPRAR</button>
+                <button class="button-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+    
+        </div>
+    
+    </div>
+    </main>
+</body>
+</html>

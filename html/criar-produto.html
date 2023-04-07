@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/stylesheets/reset.css">
+    <link rel="stylesheet" href="/public/stylesheets/header.css">
+    <link rel="stylesheet" href="/public/stylesheets/index.css">
+    <link rel="stylesheet" href="/public/stylesheets/criar-produto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="primary-div-header">
+            <span>Seja um franqueado</span>
+            <span>Entregas para todo o Brasil</span>
+            <span>Fale conosco</span>
+        </div>
+        <div class="second-div-header">
+        <img src="img/logo2.png" alt="Logo Loja">
+        <input class="input-search" type="text">
+        <div class="login-carrinho">
+            <img src="img/login-img.png" alt="" srcset="">
+            <img src="img/carrinho-img.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="div-navbar">
+        <nav>
+            <ul>
+                <li>Tênis</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Ofertas</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Sapatos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Masculinos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Femininos</li>
+                <div class="div-style-division-navbar"></div>
+                <li>Marcas</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="div-offer">
+        <h2>OFERTAS</h2>
+    </div>
+    </header>
+
+    <main>
+        <form action="/criarproduto" method="POST" class="form-input-create-produto">
+            <input type="text" name="nome-produto">
+            <input type="number" name="preco-produto">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

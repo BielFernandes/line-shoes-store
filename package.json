@@ -1,0 +1,24 @@
+{
+  "name": "lineshoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "products.js",
+  "scripts": {
+    "start": "npx nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BielFernandes/line-shoes-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BielFernandes/line-shoes-store/issues"
+  },
+  "homepage": "https://github.com/BielFernandes/line-shoes-store#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
