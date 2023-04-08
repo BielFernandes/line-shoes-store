@@ -16,12 +16,21 @@ const productController = {
         res.render('criar-produto')
     },
     criarProduto: (req, res) => {
+
+        let image = ''
+
+        if(req.files[0] !== undefined){
+            image = req.files[0].filename
+        }else{
+            image = 'default.webp'
+        }
+
         let newProduct = {
             id: Number(produtos[produtos.length - 1].id) + 1,
             name: req.body.name,
             price: req.body.price,
             marca: req.body.marca,
-            image: 'default',
+            image: image,
             tamanhos:["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
         }
         produtos.push(newProduct)

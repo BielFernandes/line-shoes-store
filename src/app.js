@@ -6,7 +6,9 @@ app.use(express.urlencoded({ extended:false }))
 app.use(express.json())
 app.use(methodOverride('_method'))
 
+
 const routes = require('../src/routes/index')
+
 
 app.set('view engine', 'ejs') // Permitindo express a ler EJS
 

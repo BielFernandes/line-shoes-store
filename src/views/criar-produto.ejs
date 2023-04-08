@@ -18,13 +18,15 @@
             <span>100% seguro</span>
         </div>
     <div class="div-form">
-        <form action="/criar" method="POST" class="form-input-create-produto">
+        <form action="/criar" method="POST" class="form-input-create-produto" enctype="multipart/form-data">
             <span>Nome do produto</span>
             <input type="text" name="name">
             <span>Preço</span>
             <input type="number" name="price">
             <span>Marca</span>
             <input type="text" name="marca">
+            <span>Imagem produto</span>
+            <input type="file" name="productImage">
             <button type="submit">Enviar</button>
         </form>
     </div>

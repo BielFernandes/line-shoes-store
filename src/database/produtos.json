@@ -2,7 +2,7 @@
     "id": "1",
     "name": "Adidas Perfomance eq21",
     "price": "375",
-    "image": "adidas-performance-eq21",
+    "image": "adidas-performance-eq21.webp",
     "marca": "adidas",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -11,7 +11,7 @@
     "id": "2",
     "name": "Adidas performance fluidflow",
     "price": "150",
-    "image": "adidas-performance-fluidflow",
+    "image": "adidas-performance-fluidflow.webp",
     "marca": "adidas",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -20,7 +20,7 @@
     "id": "3",
     "name": "adidas performance zenchini",
     "price": "150",
-    "image": "adidas-performance-zenchini",
+    "image": "adidas-performance-zenchini.webp",
     "marca": "adidas",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -29,7 +29,7 @@
     "id": "4",
     "name": "oakley flak caramelo",
     "price": "150",
-    "image": "flak-caramelo",
+    "image": "flak-caramelo.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -38,7 +38,7 @@
     "id": "5",
     "name": "mizuno space 2",
     "price": "150",
-    "image": "mizuno-space2",
+    "image": "mizuno-space2.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -47,7 +47,7 @@
     "id": "6",
     "name": "mizuno wave frontier 4",
     "price": "150",
-    "image": "mizuno-wave-frontier4",
+    "image": "mizuno-wave-frontier4.webp",
     "marca": "mizuno",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -56,7 +56,7 @@
     "id": "7",
     "name": "mizuno wave invictus",
     "price": "150",
-    "image": "mizuno-wave-invictus3",
+    "image": "mizuno-wave-invictus3.webp",
     "marca": "mizuno",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -65,7 +65,7 @@
     "id": "8",
     "name": "Nike Phantom",
     "price": "150",
-    "image": "nike-phantom",
+    "image": "nike-phantom.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -74,7 +74,7 @@
     "id": "9",
     "name": "nike precision 5",
     "price": "150",
-    "image": "nike-precision5",
+    "image": "nike-precision5.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -83,7 +83,7 @@
     "id": "10",
     "name": "Nike revolution 6",
     "price": "150",
-    "image": "nike-revolution6",
+    "image": "nike-revolution6.webp",
     "marca": "nike",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -92,7 +92,7 @@
     "id": "11",
     "name": "Oakley flak azul",
     "price": "150",
-    "image": "oakley-flak-azul",
+    "image": "oakley-flak-azul.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -101,7 +101,7 @@
     "id": "12",
     "name": "oakley halftrack low",
     "price": "150",
-    "image": "oakley-halftrack-low",
+    "image": "oakley-halftrack-low.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
@@ -110,7 +110,7 @@
     "id": "13",
     "name": "oakley tenis meia azul",
     "price": "150",
-    "image": "oakley-tenis-meia",
+    "image": "oakley-tenis-meia.webp",
     "marca": "oakley",
     "tamanhos": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "gener": "male"
