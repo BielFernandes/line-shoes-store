@@ -1,10 +1,14 @@
 const path = require('path')
+const cookieParser = require('cookie-parser')
 const express = require('express')
-const app = express()
 const methodOverride = require('method-override') // Métodos PUT e DELETE
+const app = express()
+
 app.use(express.urlencoded({ extended:false }))
 app.use(express.json())
 app.use(methodOverride('_method'))
+
+app.use(cookieParser())
 
 
 const routes = require('../src/routes/index')
